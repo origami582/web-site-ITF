@@ -1,0 +1,32 @@
+nav {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    margin: 0;
+}
+.container{
+    background-color: aquamarine;
+}
+.Balance_Information{
+    display: grid;
+    grid-template-columns: auto auto;
+    display: flex;
+    align-items: center;
+    
+}
+.Account{
+    display: grid;
+    grid-template-columns: auto auto;
+    display: flex;
+    align-items: center;
+}
+
+.bank{
+    display: grid;
+    grid-template-columns: auto auto;
+    display: flex;
+    align-items: center;
+}
