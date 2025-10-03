@@ -1,55 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>68070083</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <nav>
         <p>68070083</p>
         <h2>ITF WEBSITE</h2>
         <p>week 14</p>
     </nav>
+    <h2 id="my-title">Welcome to my ITF website!</h2>
+    <img src="DonQuixote.png" width="300">
+    <hr>
     <div class="container">
-            <h2 id = "my-title">Welcome to my ITF website!</h2>
-            <img src = "DonQuixote.png" width="300">
-            <hr>
-
-        <div>
-            <h1>Account Overview</h1>
-            <div class="Account">
-                <img src = "profile.jpg" width="60">
+        <div class="left">
             <div>
-                <h1 style="margin-top: 0px;margin-bottom: 0px;">Account Information</h1>
-                <label>Name: Nantawat Paladech</label>
-                <br>
-                <label>Type: Student KMITL</label>
-                </div>
+                <h1>Account Overview</h1>
+                <div class="Account">
+                    <img src="profile.jpg" width="60">
+                    <div>
+                        <h1 style="margin-top: 0px;margin-bottom: 0px;">Account Information</h1>
+                        <label>Name: Nantawat Paladech</label>
+                        <br>
+                        <label>Type: Student KMITL</label>
+                    </div>
                 </div>
             </div>
             <br>
 
 
             <div class="Balance_Information">
-                <img src = "gem.webp" width="70">
+                <img src="gem.webp" width="70">
                 <div>
                     <h1 style="margin-top: 0px;margin-bottom: 0px;">Balance Information</h1>
-                    <label for = "number">Account Balance</label>
-                    <input type = "number" value="0">
+                    <label for="number">Account Balance</label>
+                    <input type="number" value="0">
                     <br>
-                    <label for = "number">Cash Balance </label>
-                    <input type = "number" value="0">
+                    <label for="number">Cash Balance </label>
+                    <input type="number" value="0">
                     <button>Change</button>
                 </div>
             </div>
-            
-            <div class = "bank">
-                <img src = "bank.png" width="70">
+
+            <div class="bank">
+                <img src="bank.png" width="70">
                 <div>
                     <form>
-                    <h1 style="margin-top: 0px;margin-bottom: 0px;">Bank Operation</h1>
+                        <h1 style="margin-top: 0px;margin-bottom: 0px;">Bank Operation</h1>
 
                         <label for="bankop"></label>
                         <select id="bankop" name="bankop">
@@ -57,15 +59,36 @@
                             <option value="Withdraw">Withdraw</option>
                         </select>
                         <label for="bankop"></label>
-                        <input type = "number" value="0">
+                        <input type="number" value="0">
                     </form>
                     <button>Proceed</button>
                 </div>
             </div>
-
+        </div>
+        <div class="rigth">
+            <h1>Financial Tools</h1>
+            <div class ="coin">
+                <div class="Account">
+                    <img src="profile.jpg" width="60">
+                    <div>
+                        <h1 style="margin-top: 0px;margin-bottom: 0px;">Currency Converter</h1>
+                    <div>
+                        <label for="Input_Balance">Input Balance</label>
+                        <input type="number" value="0">
+                        <br>
+                        <label for="output_Balance">output Balance</label>
+                        <input type="number" value="0">
+                        <br>
+                        <label for="Input_currency">Input_currency</label>
+                        <button>Converter</button>
+                    </div>
+                    </div>
+                </div>
+                
+            </div>
         </div>
     </div>
-
-    <script src = "script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
