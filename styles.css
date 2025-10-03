@@ -32,3 +32,12 @@ body{
     display: flex;
     align-items: center;
 }
+
+.Hello{
+    background-color: cadetblue;
+}
+.message{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

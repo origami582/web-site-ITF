@@ -14,8 +14,13 @@
         <h2>ITF WEBSITE</h2>
         <p>week 14</p>
     </nav>
+    <div class="Hello">
     <h2 id="my-title">Welcome to my ITF website!</h2>
     <img src="DonQuixote.png" width="300">
+    <br>
+    <textarea id="message" name="message" rows="10" cols="200">
+</textarea>
+    </div>
     <hr>
     <div class="container">
         <div class="left">
@@ -28,6 +33,7 @@
                         <label>Name: Nantawat Paladech</label>
                         <br>
                         <label>Type: Student KMITL</label>
+                        
                     </div>
                 </div>
             </div>
@@ -43,7 +49,7 @@
                     <br>
                     <label for="number">Cash Balance </label>
                     <input type="number" value="0">
-                    <button>Change</button>
+                    <button onclick="printMessage()">Change</button>
                 </div>
             </div>
 
@@ -61,7 +67,7 @@
                         <label for="bankop"></label>
                         <input type="number" value="0">
                     </form>
-                    <button>Proceed</button>
+                    <button onclick="printMessage()">Proceed</button>
                 </div>
             </div>
         </div>
@@ -79,8 +85,16 @@
                         <label for="output_Balance">output Balance</label>
                         <input type="number" value="0">
                         <br>
-                        <label for="Input_currency">Input_currency</label>
-                        <button>Converter</button>
+                        <form>
+                            <label for="Input_currency">Input_currency:</label>
+                            
+                            <label for="bankop"></label>
+                            <select id="bankop" name="bankop">
+                                <option value="USD">USD</option>
+                                <option value="THB">THB</option>
+                            </select>
+                            <button onclick="printMessage()">Converter</button>
+                        </form>
                     </div>
                     </div>
                 </div>
